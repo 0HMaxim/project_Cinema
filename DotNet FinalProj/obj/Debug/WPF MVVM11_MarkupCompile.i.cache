@@ -1,0 +1,20 @@
+﻿WPF MVVM11
+
+
+winexe
+C#
+.cs
+C:\Users\123\source\repos\DotNet FinalProj\DotNet FinalProj\obj\Debug\
+DotNet_FinalProj
+none
+false
+DEBUG;TRACE
+C:\Users\123\source\repos\DotNet FinalProj\DotNet FinalProj\App.xaml
+201422381022
+
+59742375473
+24-394352961
+Styles\DarkTheme.xaml;Styles\LightTheme.xaml;Views\BookASeatPageView.xaml;Views\CinemaHallPageView.xaml;Views\ClientTicketsView.xaml;Views\ClientView.xaml;Views\CreateCinemaHallPageView.xaml;Views\CreateGenrePageView.xaml;Views\CreateMoviePageView.xaml;Views\MainView.xaml;Views\MoviePageView.xaml;Views\ProfileAdminPageView.xaml;Views\ProfilePageLoginView.xaml;Views\ProfilePageRegistrationView.xaml;Views\ProfilePageView.xaml;Views\ReliseMoviePageView.xaml;Views\SelectDateTimeView.xaml;Views\SelectSeatPageView.xaml;Views\SelectSessionPageView.xaml;Views\SettingsPageView.xaml;
+
+False
+

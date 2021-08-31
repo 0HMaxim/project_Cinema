@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="DotNet_FinalProj.Views.ProfileAdminPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DotNet_FinalProj.Views"
+             xmlns:vm="clr-namespace:DotNet_FinalProj.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.DataContext>
+        <vm:ProfileAdminPageViewModel/>
+    </UserControl.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ToolBar Height="30" VerticalAlignment="Top">
+        <Menu>
+                <MenuItem Header="Movie">
+
+                    <MenuItem Command="{Binding CreateMovieCommand}" 
+                              Header="Create Movie"/>
+                    <MenuItem Command="{Binding CreateGenreCommand}" 
+                              Header="Create Genre"/>
+
+                </MenuItem>
+
+                <MenuItem Command="{Binding CreateCinemaHallCommand}" 
+                          Margin="10 0 0 0"
+                              Header="Create Cinema hall"/>
+                <MenuItem Command="{Binding ReliseMoviePageCommand}" 
+                              Header="Relise Movie"/>
+            </Menu>
+        </ToolBar>
+
+        <ContentControl Grid.Row="1"
+                        Content="{Binding CurrentProfileAdminView}">
+        </ContentControl>
+
+
+
+
+    </Grid>
+</UserControl>

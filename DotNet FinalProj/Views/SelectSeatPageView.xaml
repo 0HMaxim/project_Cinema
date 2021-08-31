@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="DotNet_FinalProj.Views.SelectSeatPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DotNet_FinalProj.Views"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:vm="clr-namespace:DotNet_FinalProj.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.DataContext>
+        <vm:SelectSeatPageViewModel/>
+    </UserControl.DataContext>
+
+    <ScrollViewer>
+    <ItemsControl RenderTransformOrigin="0.5,0.5"
+                      ItemsSource="{Binding Ticket}"
+                  FontSize="22">
+        <ItemsControl.ItemTemplate>
+            <DataTemplate>
+                <Grid Height="30">
+                    <TextBlock  Text="{Binding Row}"
+                                FontWeight="Bold"/>
+                    <ListBox Margin="35 0 20 0"
+                             ItemsSource="{Binding ListTckt}"
+                             SelectedItem="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=UserControl}, Path=DataContext.SelectedTicket}"
+                             FontSize="12">
+                            <ListBox.Resources>
+                                <Style TargetType="ListBoxItem">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsDeceased}" Value="True">
+                                            <Setter Property="Background" Value="Red"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ListBox.Resources>
+                            <ListBox.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </ItemsPanelTemplate>
+                        </ListBox.ItemsPanel>
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Button Style="{x:Null}"
+                                           Height="20" 
+                                           Background="{Binding Color}"
+                                           Width="20"
+                                           Content="{Binding Tickett.Column}"
+                                           FontWeight="Bold"
+                                           Command="{Binding RelativeSource={RelativeSource FindAncestor,
+                                           AncestorType=UserControl},
+                                           Path=DataContext.SelectSeatCommad}"
+                                           CommandParameter="{Binding }">
+                                    </Button>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <Rectangle Margin="5,5,5,5" RadiusX="8" RadiusY="8" StrokeThickness="1" Height="40" VerticalAlignment="Top" Stroke="{x:Null}" x:Name="rctHeader">
+                    </Rectangle>
+                </Grid>
+            </DataTemplate>
+        </ItemsControl.ItemTemplate>
+    </ItemsControl>
+    </ScrollViewer>
+</UserControl>
