@@ -12,9 +12,9 @@ DEBUG;TRACE
 C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\App.xaml
 201396393968
 
-561867939068
+55864079447
 24-1297591298
 Styles\DarkTheme.xaml;Styles\LightTheme.xaml;Views\BookASeatPageView.xaml;Views\CinemaHallPageView.xaml;Views\ClientTicketsView.xaml;Views\ClientView.xaml;Views\CreateCinemaHallPageView.xaml;Views\CreateGenrePageView.xaml;Views\CreateMoviePageView.xaml;Views\MainView.xaml;Views\MoviePageView.xaml;Views\ProfileAdminPageView.xaml;Views\ProfilePageLoginView.xaml;Views\ProfilePageRegistrationView.xaml;Views\ProfilePageView.xaml;Views\ReliseMoviePageView.xaml;Views\SelectDateTimeView.xaml;Views\SelectSeatPageView.xaml;Views\SelectSessionPageView.xaml;Views\SettingsPageView.xaml;
 
-True
+False
 

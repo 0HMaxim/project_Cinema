@@ -64,9 +64,8 @@
         <Setter Property="Grid.Background">
             <Setter.Value>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                    <GradientStop Color="#FFC19537" Offset="0"></GradientStop>
-                    <GradientStop Color="#FFC9C949" Offset="0.477"></GradientStop>
-                    <GradientStop Color="#FFAC407B"  Offset="1"></GradientStop>
+                    <GradientStop Color="#00d4ff" Offset="0"></GradientStop>
+                    <GradientStop Color="#2f2fcc" Offset="1"></GradientStop>
                 </LinearGradientBrush>
             </Setter.Value>
         </Setter>
@@ -76,9 +75,8 @@
         <Setter Property="ListBox.Background">
             <Setter.Value>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                    <GradientStop Color="#FFC19537" Offset="0"></GradientStop>
-                    <GradientStop Color="#FFC9C949" Offset="0.477"></GradientStop>
-                    <GradientStop Color="#FFAC407B"  Offset="1"></GradientStop>
+                    <GradientStop Color="#00d4ff" Offset="0"></GradientStop>
+                    <GradientStop Color="#2f2fcc" Offset="1"></GradientStop>
                 </LinearGradientBrush>
             </Setter.Value>
         </Setter>
@@ -89,9 +87,8 @@
         <Setter Property="ListBoxItem.Background">
             <Setter.Value>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                    <GradientStop Color="#FFC19537" Offset="0"></GradientStop>
-                    <GradientStop Color="#FFC9C949" Offset="0.477"></GradientStop>
-                    <GradientStop Color="#FFAC407B"  Offset="1"></GradientStop>
+                    <GradientStop Color="#00d4ff" Offset="0"></GradientStop>
+                    <GradientStop Color="#2f2fcc" Offset="1"></GradientStop>
                 </LinearGradientBrush>
             </Setter.Value>
         </Setter>

@@ -74,3 +74,80 @@ C:\Users\123\source\repos\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\Clie
 C:\Users\123\source\repos\DotNet FinalProj\DotNet FinalProj\obj\Debug\DotNet FinalProj.csprojAssemblyReference.cache
 C:\Users\123\source\repos\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ClientView.g.cs
 C:\Users\123\source\repos\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ClientView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\WPF MVVM11.exe.config
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\WPF MVVM11.exe
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\WPF MVVM11.pdb
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\EntityFramework.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\EntityFramework.xml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\DotNet FinalProj.csproj.AssemblyReference.cache
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\DotNet FinalProj.csproj.SuggestedBindingRedirects.cache
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\BookASeatPageView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\CinemaHallPageView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ClientTicketsView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ClientView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\CreateCinemaHallPageView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\CreateGenrePageView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\CreateMoviePageView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\MainView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\MoviePageView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ProfileAdminPageView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ProfilePageLoginView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ProfilePageRegistrationView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ProfilePageView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ReliseMoviePageView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\SelectDateTimeView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\SelectSeatPageView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\SelectSessionPageView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\SettingsPageView.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\App.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\WPF MVVM11_MarkupCompile.cache
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\WPF MVVM11_MarkupCompile.lref
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Styles\DarkTheme.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Styles\LightTheme.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\BookASeatPageView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\CinemaHallPageView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ClientTicketsView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ClientView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\CreateCinemaHallPageView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\CreateGenrePageView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\CreateMoviePageView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\MainView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\MoviePageView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ProfileAdminPageView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ProfilePageLoginView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ProfilePageRegistrationView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ProfilePageView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\ReliseMoviePageView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\SelectDateTimeView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\SelectSeatPageView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\SelectSessionPageView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\Views\SettingsPageView.baml
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\WPF MVVM11.g.resources
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\DotNet_FinalProj.Properties.Resources.resources
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\DotNet FinalProj.csproj.GenerateResource.cache
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\DotNet FinalProj.csproj.CoreCompileInputs.cache
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\DotNet FinalProj.csproj.CopyComplete
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\WPF MVVM11.exe
+C:\Users\teran\Desktop\DotNet FinalProj\DotNet FinalProj\obj\Debug\WPF MVVM11.pdb
