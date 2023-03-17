@@ -1,0 +1,126 @@
+﻿<UserControl x:Class="DotNet_FinalProj.Views.ReliseMoviePageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DotNet_FinalProj.Views"
+             xmlns:vm="clr-namespace:DotNet_FinalProj.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.DataContext>
+        <vm:ReliseMovieViewModel/>
+    </UserControl.DataContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.ColumnSpan="100"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   FontSize="50"
+                   Text="Relise Movie"></TextBlock>
+
+        <StackPanel Grid.Row="1"
+                    VerticalAlignment="Top"
+                    Grid.RowSpan="2"
+                    Margin="5 0 5 5">
+            <TextBlock Grid.Row="0"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   FontSize="20"
+                   Text="Select Movie">
+            </TextBlock>
+            <Button
+                Command="{Binding SelectMovieCommand}"
+                Height="30"
+                Content ="{Binding CurrentSession.Movie.MovieTitle}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1"
+                    Grid.RowSpan="2"
+                    VerticalAlignment="Top"
+                    Grid.Column="1"
+                    Margin="5 0 5 5">
+            <TextBlock Grid.Row="0"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   FontSize="20"
+                   Text="Select CinemaHall">
+            </TextBlock>
+            <Button
+                Command="{Binding SelectCinemaHallCommand}"
+                Height="30"
+                Content ="{Binding CurrentSession.CinemaHall.HallName}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1"
+                    Grid.Column="2"
+                    VerticalAlignment="Top"
+                    Grid.RowSpan="2"
+                    Margin="5 0 5 5">
+            <TextBlock Grid.Row="0"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   FontSize="20"
+                   Text="Select date and Time">
+            </TextBlock>
+            <Button
+                Command="{Binding SelectDateTimeCommand}"
+                Height="30"
+                Content="{Binding CurrentSession.Date}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1"
+                    Grid.Column="3"
+                    Grid.RowSpan="2"
+                    VerticalAlignment="Top"
+                    Margin="5 0 5 5">
+            <TextBlock Grid.Row="0"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   FontSize="20"
+                   Text="Relise">
+            </TextBlock>
+            <Button
+                Command="{Binding ReliseMovieCommand}"
+                Height="30"
+                Content ="Relise Movie"/>
+        </StackPanel>
+
+
+
+
+        <Button Grid.Row="7"
+                Grid.ColumnSpan="10"
+                Width="150"
+                Command="{Binding SetDataCommand}"
+                Height="30"
+                Content="{Binding LastButton}"/>
+
+
+
+        <ContentControl Grid.Row="2"
+                        Grid.RowSpan="5"
+                       VerticalAlignment="Center"
+                        Grid.ColumnSpan="100"
+                        Content="{Binding CurrentReliseMovieView}">
+        </ContentControl>
+
+    </Grid>
+</UserControl>

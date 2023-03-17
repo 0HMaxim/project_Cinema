@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="DotNet_FinalProj.Views.ClientView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DotNet_FinalProj.Views"
+             xmlns:vm="clr-namespace:DotNet_FinalProj.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.DataContext>
+        <vm:ClientViewModel/>
+    </UserControl.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Button Height="30"
+                Width="150"
+                VerticalAlignment="Top"
+                Margin="0 10 0 0"
+                Content="Show all my ticket"
+                Command="{Binding ShowTicketViewCommand}"/>
+
+        <Button Grid.Column="1"
+                Height="30"
+                Width="150"
+                VerticalAlignment="Top"
+                Margin="0 10 0 0"
+                Content="Show Movie"
+                Command="{Binding ShowMovieViewCommand}"/>
+
+        <ContentControl Grid.Row="1"
+                        Grid.ColumnSpan="2"
+                        Content="{Binding CurrentView}"/>
+
+
+    </Grid>
+</UserControl>
