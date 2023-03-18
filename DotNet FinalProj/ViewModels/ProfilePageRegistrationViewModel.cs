@@ -51,7 +51,7 @@ namespace DotNet_FinalProj.ViewModels
                         m.Subject = "Регистрация в кинотеатре D2Top";
                         m.Body = $"Здраствуйте {Client.Name}, Вы успешно создали аккаунт в кинотеатре D2Top\nLogin {Client.Login}\nPassword {Client.Password}";
                         SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
-                        smtp.Credentials = new NetworkCredential("teran5656@gmail.com", "acer5735z");
+                        smtp.Credentials = new NetworkCredential("teran5656@gmail.com", "jforcjoaskkasyuf");
                         smtp.EnableSsl = true;
                         smtp.Send(m);
 
