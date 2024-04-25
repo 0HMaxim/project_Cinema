@@ -1,4 +1,4 @@
-Simple Project WPF MVVM, a cinema 
+Simple WPF MVVM Project, a cinema 
 
 where the user can 
 
